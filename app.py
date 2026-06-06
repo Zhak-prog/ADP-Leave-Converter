@@ -7,13 +7,7 @@ import io
 # Set page configuration
 str.set_page_config(page_title="Roster Image to Table Converter", layout="wide")
 
-# Add the JLL Logo at the top of the interface
-str.image(
-    "https://raw.githubusercontent.com/Zhak-prog/ADP-Leave-Converter/main/1000014225.png" if False else "https://logo.clearbit.com/jll.com", 
-    width=150
-)
-
-str.title("🗓️ Schedule Roster Image Converter")
+str.title("🗓️ ADP Leave Converter")
 str.write("Upload your roster image to convert it into a structured data table.")
 # Sidebar for API Key configuration
 with str.sidebar:
