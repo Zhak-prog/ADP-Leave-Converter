@@ -9,7 +9,7 @@ str.set_page_config(page_title="Roster Image to Table Converter", layout="wide")
 
 # Add the JLL Logo at the top of the interface
 str.image(
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/JLL_logo.svg/1200px-JLL_logo.svg.png", 
+    "https://raw.githubusercontent.com/Zhak-prog/ADP-Leave-Converter/main/1000014225.png" if False else "https://logo.clearbit.com/jll.com", 
     width=150
 )
 
